@@ -1,0 +1,31 @@
+{
+  "name": "chrishurst",
+  "version": "1.0.0",
+  "homepage": "https://iamchrishurst.com",
+  "authors": [
+    "Chris Hurst <chris@iamchrishurst.com>"
+  ],
+  "description": "Chris Hurst is a Bootstrap and UnderScores based WordPress starter theme",
+  "moduleType": "globals",
+  "main": [
+    "sass/theme.scss"
+  ],
+  "keywords": [
+    "bootstrap",
+    "underscores",
+    "wordpress",
+    "_s",
+    "sass"
+  ],
+  "license": "GPL-2.0",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  },
+  "_source": "https://github.com/ChrisHursty/chris-hurst.git",
+  "_target": "~0.6.2",
+  "_originalSource": "chrishurst"
+}
