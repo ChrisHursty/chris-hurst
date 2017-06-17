@@ -71,3 +71,9 @@ require get_template_directory() . '/inc/woocommerce.php';
  * Load Editor functions.
  */
 require get_template_directory() . '/inc/editor.php';
+
+/**
+ * Custom Post Types.
+ */
+require get_template_directory() . '/inc/custom-post-types.php';
+
