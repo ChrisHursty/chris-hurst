@@ -33,7 +33,7 @@ $container = get_theme_mod( 'chrishurst_container_type' );
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content',
 		'chrishurst' ); ?></a>
 
-		<nav class="navbar navbar-toggleable-md  navbar-inverse bg-inverse">
+		<nav class="navbar navbar-toggleable-md  navbar-inverse random-color-bg">
 
 		<?php if ( 'container' == $container ) : ?>
 			<div class="container">

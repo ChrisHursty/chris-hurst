@@ -6,6 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Lato");
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -9227,6 +9228,12 @@ h1.navbar-brand a:hover {
 
 .gallery-caption {
   display: block; }
+
+h1 {
+  font-family: 'Lato', sans-serif; }
+
+.navbar-brand {
+  width: 250px; }
 
 /*
 * Use existing Bootstrap 4 classes and

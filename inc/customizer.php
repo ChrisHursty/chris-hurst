@@ -89,7 +89,32 @@ if ( ! function_exists( 'chrishurst_theme_customize_register' ) ) {
 					),
 					'priority'    => '20',
 				)
-			) );
+		) );
+
+		
+
+		// Home Page Hero Text
+		$wp_customize->add_section( 'ch_homepage',
+			array(
+				'title'       => __( 'Home Page', 'chrishurst' ),
+				'description' => __( "Home Page Setting, Hero area"),
+				'priority'    => 1,
+			)
+		);
+		$wp_customize->add_setting( 'ch_homepage' );
+
+		$wp_customize->add_setting( 'ch_homepage_hero_text', array(
+			'capability'        => 'edit_theme_options',
+			'default'           => 'Lorem Ipsum Dolor Sit amet',
+			'sanitize_callback' => 'sanitize_text_field',
+		) );
+
+		$wp_customize->add_control( 'ch_homepage_hero_text', array(
+			'type'        => 'textarea',
+			'section'     => 'ch_homepage',
+			'label'       => __( 'Hero Text' ),
+			'description' => __( 'Home page text, above the fold' ),
+		) );
 	}
 } // endif function_exists( 'chrishurst_theme_customize_register' ).
 add_action( 'customize_register', 'chrishurst_theme_customize_register' );

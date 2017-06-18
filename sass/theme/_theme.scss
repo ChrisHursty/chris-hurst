@@ -1,1 +1,10 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+h1 {
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand {
+	width: 250px;
+}
