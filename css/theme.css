@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i");
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -9230,7 +9230,7 @@ h1.navbar-brand a:hover {
   display: block; }
 
 h1 {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 .navbar-brand {
   width: 250px; }
